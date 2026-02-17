@@ -4,7 +4,7 @@
 
 import pandas as pd
 
-df = pd.read_csv('C:/Users/hp/Data-Analysis-using-Python/Pandas-Projects/9. HR Analytics Dashboard/data.csv')
+df = pd.read_csv('C:/Users/hp/Data-Analysis-using-Python/Pandas-Projects/09. HR Analytics Dashboard/data.csv')
 
 print("Original Data:")
 print(df)

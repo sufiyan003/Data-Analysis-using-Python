@@ -4,7 +4,7 @@
 
 import pandas as pd
 
-df = pd.read_csv('C:/Users/hp/Data-Analysis-using-Python/Pandas-Projects/6. Customer Segmentation/data.csv')
+df = pd.read_csv('C:/Users/hp/Data-Analysis-using-Python/Pandas-Projects/06. Customer Segmentation/data.csv')
 
 print("Original Data:")
 print(df)

@@ -4,7 +4,7 @@
 
 import pandas as pd
 
-df = pd.read_csv('C:/Users/hp/Data-Analysis-using-Python/Pandas-Projects/3. Employee Dataset Cleaner & Analyzer/data.csv')
+df = pd.read_csv('C:/Users/hp/Data-Analysis-using-Python/Pandas-Projects/03. Employee Dataset Cleaner & Analyzer/data.csv')
 
 print("Original Data:")
 print(df)

@@ -3,7 +3,7 @@
 
 import pandas as pd
 
-df = pd.read_csv('C:/Users/hp/Data-Analysis-using-Python/Pandas-Projects/5. E-commerce Order Analysis/data.csv')
+df = pd.read_csv('C:/Users/hp/Data-Analysis-using-Python/Pandas-Projects/05. E-commerce Order Analysis/data.csv')
 
 print("Original Data:")
 print(df)
