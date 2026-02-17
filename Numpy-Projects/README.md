@@ -1,58 +1,39 @@
 # ⚡ 𝑵𝒖𝒎𝑷𝒚 𝑴𝒂𝒔𝒕𝒆𝒓𝒚: 𝑫𝒂𝒕𝒂 𝑺𝒄𝒊𝒆𝒏𝒄𝒆 𝑭𝒐𝒖𝒏𝒅𝒂𝒕𝒊𝒐𝒏𝒔
 
-> *A curated collection of **beginner to advanced NumPy-only projects** designed to build a high-performance foundation for Data Science and Numerical Computing.*
+![NumPy](https://img.shields.io/badge/Library-NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Python](https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+> **Welcome!** This repository contains **10 NumPy-only projects** ranging from **Beginner to Advanced** levels. These projects are designed to build a high-performance foundation in numerical computing, array manipulation, and mathematical logic.
 
 ---
 
-## 📌 𝑷𝒖𝒓𝒑𝒐𝒔𝒆 𝒐𝒇 𝑻𝒉𝒊𝒔 𝑹𝒆𝒑𝒐𝒔𝒊𝒕𝒐𝒓𝒚
+## 📝 𝑷𝒓𝒐𝒋𝒆𝒄𝒕𝒔 𝑶𝒗𝒆𝒓𝒗𝒊𝒆𝒘
 
-* 🎯 **Master NumPy from scratch** through structured, hands-on challenges.
-* 🧠 **Deep Dive** into `ndarrays`, `slicing`, `broadcasting`, and `vectorized operations`.
-* 💼 **Portfolio Ready:** Building real-world logic before transitioning to Pandas.
-* 🚀 **Performance First:** Learning why NumPy is the backbone of AI and Machine Learning.
-
----
-
-## 📂 𝑷𝒓𝒐𝒋𝒆𝒄𝒕 𝑳𝒊𝒃𝒓𝒂𝒓𝒚
-
-### 🟢 𝑩𝒆𝒈𝒊𝒏𝒏𝒆𝒓 (𝑭𝒐𝒖𝒏𝒅𝒂𝒕𝒊𝒐𝒏𝒔)
-1. **[ATM Simulation](./NumPy-Projects/atm_simulation.py)**
-   * *Logic:* State management using NumPy scalars and arrays.
-2. **[Smart Bill Generator](./NumPy-Projects/smart_bill_generator.py)**
-   * *Logic:* Array arithmetic for taxes and total calculations.
-3. **[Statistics & Outlier Detector](./NumPy-Projects/outlier_detector.py)**
-   * *Logic:* Using `np.mean()`, `np.std()`, and standard deviation for data cleaning.
+| Level | Project Name | Core Purpose | Key Concepts |
+| :--- | :--- | :--- | :--- |
+| 🟢 | **ATM Simulation** | Manage state and balance updates. | `Scalars`, `Conditionals`, `Variable State` |
+| 🟢 | **Smart Bill Generator** | Calculate totals and taxes efficiently. | `Array Arithmetic`, `Basic Math` |
+| 🟢 | **Statistics & Outlier Detector** | Detect anomalies in datasets. | `np.mean()`, `np.std()`, `Filtering` |
+| 🟡 | **Data Filter Engine** | Simulate SQL-style data searching. | `Boolean Indexing`, `Masking` |
+| 🟡 | **Player Stats Analyzer** | Evaluate performance across seasons. | `Multi-dimensional Aggregation`, `axis` |
+| 🟡 | **Matrix Game** | Logic-based simulation in 3D space. | `3D Arrays`, `np.argmax()`, `Reshaping` |
+| 🟠 | **Sensor Noise Cleaner** | Remove noise from digital signals. | `Universal Functions`, `Noise Filtering` |
+| 🔴 | **Image Pixel Manipulation** | Process RGB data and image filters. | `3D Slicing`, `Broadcasting`, `np.clip()` |
+| 🔴 | **Data Analysis Dashboard** | Multi-source data merging and analysis. | `Stacking`, `Concatenation`, `Analysis` |
+| 🔴 | **Student Result Analysis** | Analyze class-wide results and curves. | `Broadcasting`, `Mean`, `Vectorization` |
+| 🔴 | **Financial Portfolio Sim** | Track returns and volatility trends. | `Vectorized Math`, `Finance Logic` |
 
 ---
 
-### 🟡 𝑰𝒏𝒕𝒆𝒓𝒎𝒆𝒅𝒊𝒂𝒕𝒆 (𝑫𝒂𝒕𝒂 𝑴𝒂𝒏𝒊𝒑𝒖𝒍𝒂𝒕𝒊𝒐𝒏)
-4. **[Data Filter Engine](./NumPy-Projects/filter_engine.py)**
-   * *Logic:* Advanced **Boolean Indexing** and conditional filtering.
-5. **[Player Stats Analyzer](./NumPy-Projects/player_analyzer.py)**
-   * *Logic:* **Multi-dimensional Aggregation** (axis=0, axis=1) for performance metrics.
-6. **[Matrix Game](./NumPy-Projects/matrix_game.py)**
-   * *Logic:* Simulating 3D environments and winner detection using `np.argmax()`.
+## 🔑 𝑲𝒆𝒚 𝑺𝒌𝒊𝒍𝒍𝒔 𝑷𝒓𝒂𝒄𝒕𝒊𝒄𝒆𝒅
+
+* 🔢 **𝐀𝐫𝐫𝐚𝐲 𝐂𝐫𝐞𝐚𝐭𝐢𝐨𝐧:** `np.array()`, `np.arange()`, `np.zeros()`
+* ✂️ **𝐒𝐥𝐢𝐜𝐢𝐧𝐠 & 𝐃𝐢𝐜𝐢𝐧𝐠:** High-performance indexing and multi-dimensional slicing.
+* 📡 **𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭𝐢𝐧𝐠:** Efficient math operations on mismatched array shapes.
+* 📊 **𝐀𝐠𝐠𝐫𝐞𝐠𝐚𝐭𝐢𝐨𝐧:** `np.sum()`, `np.mean()`, `np.median()`, `np.std()`.
+* 🧠 **𝐕𝐞𝐜𝐭𝐨𝐫𝐢𝐳𝐚𝐭𝐢𝐨𝐧:** Replacing slow loops with fast NumPy operations.
+* 🧪 **𝐃𝐚𝐭𝐚 𝐂𝐥𝐞𝐚𝐧𝐢𝐧𝐠:** Outlier detection and noise reduction using Z-score logic.
+
+
 
 ---
-
-### 🔴 𝑨𝒅𝒗𝒂𝒏𝒄𝒆𝒅 (𝑹𝒆𝒂𝒍-𝑾𝒐𝒓𝒍𝒅 𝑺𝒊𝒎𝒖𝒍𝒂𝒕𝒊𝒐𝒏𝒔)
-7. **[Image Pixel Manipulation](./NumPy-Projects/image_processing.py)**
-   * *Logic:* Manipulating 3D RGB arrays for brightness, contrast, and grayscaling.
-8. **[Data Analysis Dashboard](./NumPy-Projects/dashboard.py)**
-   * *Logic:* Merging and analyzing disparate datasets (Sales, Inventory, Profit).
-9. **[Financial Portfolio Simulator](./NumPy-Projects/finance_sim.py)**
-   * *Logic:* Calculating cumulative returns, volatility, and asset performance.
-
----
-
-## 🛠️ 𝑻𝒆𝒄𝒉 𝑺𝒕𝒂𝒄𝒌
-* `Python 3.10+` 🐍
-* `NumPy` (Numerical Python) 🔢
-
----
-
-## 🚀 𝑮𝒆𝒕𝒕𝒊𝒏𝒈 𝑺𝒕𝒂𝒓𝒕𝒆𝒅
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/sufiyan003/Data-Analysis-using-Python.git](https://github.com/sufiyan003/Data-Analysis-using-Python.git)
