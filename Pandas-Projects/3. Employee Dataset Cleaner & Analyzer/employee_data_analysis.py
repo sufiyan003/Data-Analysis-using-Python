@@ -1,0 +1,32 @@
+# This project cleans and analyzes employee data using Pandas.
+# It handles missing values, converts data types,
+# and performs department-wise salary analysis.
+
+import pandas as pd
+
+df = pd.read_csv('C:/Users/hp/Data-Analysis-using-Python/Pandas-Projects/3. Employee Dataset Cleaner & Analyzer/data.csv')
+
+print("Original Data:")
+print(df)
+print("\n")
+
+df["Salary"].fillna(df["Salary"].mean(), inplace=True)
+
+df["JoiningDate"].fillna("2021-01-01", inplace=True)
+
+df["JoiningDate"] = pd.to_datetime(df["JoiningDate"])
+
+print("After Cleaning:")
+print(df)
+print("\n")
+
+dept_avg_salary = df.groupby("Department")["Salary"].mean()
+
+high_salary_employees = df[df["Salary"] > 70000]
+
+print("Department-wise Average Salary:")
+print(dept_avg_salary)
+print("\n")
+
+print("High Salary Employees:")
+print(high_salary_employees)

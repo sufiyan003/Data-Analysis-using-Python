@@ -1,0 +1,8 @@
+Date,Product,Region,Quantity,Price
+2024-01-01,Laptop,Karachi,2,120000
+2024-01-01,Mobile,Lahore,5,45000
+2024-01-02,Laptop,Karachi,1,120000
+2024-01-02,Tablet,Islamabad,3,60000
+2024-01-03,Mobile,Karachi,4,45000
+2024-01-03,Laptop,Lahore,2,118000
+2024-01-04,Tablet,Karachi,,60000

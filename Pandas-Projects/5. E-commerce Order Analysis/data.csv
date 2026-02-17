@@ -1,0 +1,10 @@
+OrderID,Customer,Product,Quantity,Price,OrderDate
+1,Ali,Laptop,2,120000,2024-01-01
+2,Ahmed,Mobile,5,45000,2024-01-01
+3,Sara,Laptop,1,120000,2024-01-02
+4,Ayesha,Tablet,3,60000,2024-01-02
+5,Ali,Mobile,4,45000,2024-01-03
+6,Usman,Laptop,2,118000,2024-01-03
+7,Sara,Tablet,1,60000,2024-01-04
+8,Ahmed,Mobile,2,45000,2024-01-04
+9,Ayesha,Laptop,1,120000,2024-01-05
