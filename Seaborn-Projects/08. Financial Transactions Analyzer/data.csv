@@ -1,0 +1,11 @@
+TransactionID,AccountHolder,TransactionType,Amount,Date
+1,Ali,Debit,5000,2024-01-01
+2,Ahmed,Credit,20000,2024-01-01
+3,Sara,Debit,7000,2024-01-02
+4,Ayesha,Debit,3000,2024-01-02
+5,Ali,Debit,1000,2024-01-03
+6,Usman,Credit,15000,2024-01-03
+7,Sara,Debit,2000,2024-01-04
+8,Ahmed,Debit,4000,2024-01-04
+9,Ayesha,Credit,10000,2024-01-05
+10,Ali,Debit,2500,2024-01-05
